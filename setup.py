@@ -1,13 +1,22 @@
 # -*- coding: utf-8 -*-
 
+import os
 from setuptools import setup, find_packages
+
+HERE = os.path.abspath(os.path.dirname(__file__))
+
+
+def readme():
+    with open(os.path.join(HERE, 'README.rst')) as f:
+        return f.read()
 
 
 def _setup():
     setup(
         name='twapp',
-        version='0.0.1',
+        version='0.0.2',
         description='tornado web app generator',
+        long_description=readme(),
         url='https://github.com/liujinliu/twapp',
         author='liujinliu',
         author_email='liujinliu@lbesec.com',
