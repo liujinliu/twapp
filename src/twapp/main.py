@@ -7,8 +7,8 @@ import sys
 import twapp
 
 define('prefix', default='~/workspace',
-       help='install twapp files in [PREFIX]')
-define('app', default='', help='twork app name')
+       help='generate twapp files at [PREFIX]')
+define('app', default='', help='app name')
 ORI_PROJECT = 'twapp'
 
 

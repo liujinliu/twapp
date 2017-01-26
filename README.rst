@@ -19,8 +19,8 @@ USEAGE
 ::
 
     (twapp)$twapp-make --help
-    --app                            twork app name
-    --prefix                         install twapp files in [PREFIX] (default
+    --app                            app name
+    --prefix                         generate twapp files at [PREFIX] (default
                                      ~/workspace) 
 
 
