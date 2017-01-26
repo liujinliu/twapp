@@ -26,13 +26,19 @@ def _setup():
         package_dir={'': 'src'},
         package_data={
             'twapp': [
-                'shelves/twapp/*',
-                'shelves/twapp/config/*',
-                'shelves/twapp/src/twapp/*',
-                'shelves/twapp/src/twapp/api/*',
-                'shelves/twapp/src/twapp/api/handlers/*',
-                'shelves/twapp/src/twapp/controllers/*',
-                'shelves/twapp/src/twapp/controllers/modle/*',
+                'shelves/twapp/Makefile',
+                'shelves/twapp/README.md',
+                'shelves/twapp/setup.py',
+                'shelves/twapp/config/logging.conf',
+                'shelves/twapp/src/twapp/__init__.py',
+                'shelves/twapp/src/twapp/main.py',
+                'shelves/twapp/src/twapp/api/__init__.py',
+                'shelves/twapp/src/twapp/api/urls.py',
+                'shelves/twapp/src/twapp/api/handlers/__init__.py',
+                'shelves/twapp/src/twapp/api/handlers/index.py',
+                'shelves/twapp/src/twapp/controllers/__init__.py',
+                'shelves/twapp/src/twapp/controllers/api.py',
+                'shelves/twapp/src/twapp/controllers/modle/__init__.py',
             ]
         },
         entry_points={
