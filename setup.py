@@ -8,7 +8,9 @@ def _setup():
         name='twapp',
         version='0.0.1',
         description='tornado web app generator',
-        url='',
+        url='https://github.com/liujinliu/twapp',
+        author='liujinliu',
+        author_email='liujinliu@lbesec.com',
         install_requires=['tornado'],
         packages=find_packages('src'),
         include_package_data=True,
@@ -30,7 +32,6 @@ def _setup():
                 ]
             },
         classifiers=[
-            'Development Status :: 4 - Beta Development Status',
             'Environment :: Console',
             'Topic :: Utilities',
         ],

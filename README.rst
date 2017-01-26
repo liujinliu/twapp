@@ -5,6 +5,12 @@ Just generate your app, and never touch it again.
 
 INSTALL
 ~~~~~~~~~~~~~~~
+install from pypi:
+
+::
+
+    pip install twapp 
+
 install from source:
 
 ::
