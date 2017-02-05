@@ -14,7 +14,7 @@ def readme():
 def _setup():
     setup(
         name='twapp',
-        version='0.0.2',
+        version='0.0.4',
         description='tornado web app generator',
         long_description=readme(),
         url='https://github.com/liujinliu/twapp',

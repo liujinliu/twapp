@@ -32,8 +32,10 @@ def logging_init():
 def app_init():
     from api.urls import urls
     from tornado.web import Application
+    from tornado.httpserver import HTTPServer
     app = Application(urls, debug=options.debug)
-    app.listen(options.port)
+    server = HTTPServer(app, xheaders=True)
+    server.listen(options.port)
 
 
 def main():
